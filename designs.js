@@ -3,6 +3,7 @@ let color =  $('#colorPicker');
 
 // Choose grid size form event that creates the grid
 $('#sizePicker').submit(function(e){
+	
     //Call the makeGrid() function
     makeGrid();
     e.preventDefault();
